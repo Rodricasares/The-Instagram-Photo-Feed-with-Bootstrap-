@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    
+    <!--Navbar // barra de Menu -->
+    <!--Instagram logo-->
+
+
+    <div class="row bg-light ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-instagram" style="width: 10%;" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+
+                    <!--Instagram newletter-->
+                </svg>
+                <div class="position-sticky" style="width: 90%;">
+                    <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png">
+                </div>
+
+         <!--button upgrade photo-->
+
+                <!-- Button trigger modal -->
+         <button type="button" class="btn btn-success mr-2" data-toggle="modal" data-target="#exampleModal" >
+           NewPost
+         </button>
+         
+         <!-- Modal -->
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+           <div class="modal-dialog">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>
+               <div class="modal-body">
+                
+                      <!-- icon camara photo-->
+                      <div class="row ">
+                      <svg xmlns="http://www.w3.org/2000/svg m-2" width="16" height="16" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16" style="width: 10%;">
+  <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+  <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+</svg>
+<!-- icon location-->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16" style="width: 12%;">
+    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+  </svg>
+</div>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                 <button type="button" class="btn btn-success">Save changes</button>
+               </div>
+             </div>
+           </div>
+         </div>      
+    <!-- Example split option button -->
+
+
+                <div class="btn-group" style="width: 15%">
+                    <button type="button" class="btn dropdown-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                        </svg></button>
+                    <button type="button " style="width: 300%" class="btn dropdown-item dropdown-toggle "
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="btn-group dropstart"></span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!--nav button mosaic.hatml & home -->
+
+    <div class="row bg-white pb-2">
+
+    <ul class="nav nav-tabs d-flex justify-content-center pb-2 border-0" id="myTab" role="tablist">
+        <li class="nav-item ">
+          <a class="page-link text-secondary border-0" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><svg xmlns="http://www.w3.org/2000/svg"
+            width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap" viewBox="0 0 16 16">
+            <path
+                d="M4 2v2H2V2h2zm1 12v-2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5 10v-2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zM9 2v2H7V2h2zm5 0v2h-2V2h2zM4 7v2H2V7h2zm5 0v2H7V7h2zm5 0h-2v2h2V7zM4 12v2H2v-2h2zm5 0v2H7v-2h2zm5 0v2h-2v-2h2zM12 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zm-1 6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zm1 4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2z" />
+        </svg></a>
+        </li>
+        <li class="nav-item">
+          <a class="page-link text-secondary border-0" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg"
+            width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
+        </svg></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"></a>
+        </li>
+      </ul>
+    </div>
+
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> <div class="container">
+            <div class="row py-3 ">
+              <div class="col-6 col-sm-4"><img src="https://cdn.pixabay.com/photo/2016/10/28/13/09/usa-1777986__340.jpg" class="img-fluid" alt="..."></div>
+              <div class="col-6 col-sm-4"><img src="https://images.adsttc.com/media/images/594d/7f74/b22e/3898/a700/0951/newsletter/ciudad.jpg?1498251119" class="img-fluid" alt="..."></div>
+              <div class="col-6 col-sm-4"><img src="https://conceptodefinicion.de/wp-content/uploads/2014/03/ciudad.jpg" class="img-fluid" alt="..."></div>
+              <!-- Force next columns to break to new line at md breakpoint and up -->
+              <div class="w-100 d-none d-md-block py-2"></div>
+          
+              <div class="col-6 col-sm-4"><img src="https://cdn.pixabay.com/photo/2016/10/28/13/09/usa-1777986__340.jpg" class="img-fluid" alt="..."></div>
+              <div class="col-6 col-sm-4"><img src="https://images.adsttc.com/media/images/594d/7f74/b22e/3898/a700/0951/newsletter/ciudad.jpg?1498251119" class="img-fluid" alt="..."></div>
+              <div class="col-6 col-sm-4"><img src="https://conceptodefinicion.de/wp-content/uploads/2014/03/ciudad.jpg" class="img-fluid" alt="..."></div>
+            </div>
+          </div></div>
+        <div class="tab-pane fade " id="profile" role="tabpanel" aria-labelledby="profile-tab"><div class="row justify-content-center py-3 ">
+
+            <div class="col-5 mb-5 bg-white text-dark rounded ">
+                <div class="row p-1 ">
+    
+                    <div class="d-flex justify-content-start " style="width: 70%;">
+                        <h5>My first photo</h5>
+                    </div>
+                    <div class="d-flex justify-content-end" style="width: 30%;">01/12</div>
+                </div>
+                <div class="row">
+                    <img src="https://imgs-akamai.mnstatic.com/bc/2f/bc2f53fd6a9736e390d457ab2dd16931.jpg?quality=75&format=pjpg&fit=bounds&width=980&height=880"
+                        class="mx-auto d-block" style="padding: 0px;" alt="...">
+    
+                </div>
+    
+    
+    
+    
+    
+    
+    
+                <!--likes-->
+    
+    
+                <div class="d-flex justify-content-start pt-2">
+                    <h6>23 Likes</h6>
+                </div>
+    
+    
+                <!--text-->
+    
+                <div class="row">
+                    <p class="text-left">Left aligned text on all viewport sizes.</p>
+    
+                </div>
+    
+    
+    
+    
+    
+                <div class="row pb-3">
+                    <!--icon-heart-->
+                    <div class="d-flex justify-content-start " style="width: 70%;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-heart" viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                        </svg>
+                    </div>
+                    <!--icon-poins-options-->
+                    <div class="d-flex justify-content-end" style="width: 30%;"> <svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                        </svg> </div>
+                </div>
+    
+            </div>
+    
+            <!--box My second photo-->
+    
+            <div class="row justify-content-center pb-3 ">
+    
+                <div class="col-5 mb-5 bg-white text-dark rounded">
+                    <div class="row p-1 ">
+    
+                        <div class="d-flex justify-content-start " style="width: 70%;">
+                            <h5>My first photo</h5>
+                        </div>
+                        <div class="d-flex justify-content-end" style="width: 30%;">01/12</div>
+                    </div>
+                    <div class="row">
+                        <img src="https://conceptodefinicion.de/wp-content/uploads/2014/03/ciudad.jpg"
+                            class="mx-auto d-block" style="padding: 0px;" alt="...">
+    
+                    </div>
+    
+    
+    
+    
+    
+    
+    
+                    <!--likes-->
+    
+    
+                    <div class="d-flex justify-content-start pt-2">
+                        <h6>23 Likes</h6>
+                    </div>
+    
+    
+                    <!--text-->
+    
+                    <div class="row">
+                        <p class="text-left">Left aligned text on all viewport sizes.</p>
+    
+                    </div>
+    
+    
+    
+    
+    
+                    <div class="row pb-3">
+                        <!--icon-heart-->
+                        <div class="d-flex justify-content-start " style="width: 70%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-heart" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </div>
+                        <!--icon-poins-options-->
+                        <div class="d-flex justify-content-end" style="width: 30%;"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                            </svg> </div>
+                    </div>
+    
+                </div>
+    
+                <!--box My third photo-->
+    
+                <div class="row justify-content-center pb-3 ">
+    
+                    <div class="col-5 mb-5 bg-white text-dark rounded">
+                        <div class="row p-1 ">
+    
+                            <div class="d-flex justify-content-start " style="width: 70%;">
+                                <h5>My first photo</h5>
+                            </div>
+                            <div class="d-flex justify-content-end" style="width: 30%;">01/12</div>
+                        </div>
+                        <div class="row">
+                            <img src="https://cdn.pixabay.com/photo/2016/10/28/13/09/usa-1777986__340.jpg"
+                                class="mx-auto d-block" style="padding: 0px;" alt="...">
+    
+                        </div>
+    
+    
+    
+    
+    
+    
+    
+                        <!--likes-->
+    
+    
+                        <div class="d-flex justify-content-start pt-2">
+                            <h6>23 Likes</h6>
+                        </div>
+    
+    
+                        <!--text-->
+    
+                        <div class="row">
+                            <p class="text-left">Left aligned text on all viewport sizes.</p>
+    
+                        </div>
+    
+    
+    
+    
+    
+                        <div class="row pb-3">
+                            <!--icon-heart-->
+                            <div class="d-flex justify-content-start " style="width: 70%;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path
+                                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                </svg>
+                            </div>
+                            <!--icon-poins-options-->
+                            <div class="d-flex justify-content-end" style="width: 30%;"> <svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                                </svg> </div>
+                        </div>
+    
+                    </div></div>
+      </div>
+
+            </div>
+
+            <!--bootstrap-->
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+                integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+                crossorigin="anonymous">
+                </script>
+</body>
+
+</html>
